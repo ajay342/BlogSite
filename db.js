@@ -1,9 +1,11 @@
+/* DataBase test File*/
+
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
     host     : 'localhost',
     database : 'web',
-    user     : 'Ajay',
-    password : 'root',
+    user     : 'USERNAME',
+    password : 'PASSWORD',
 });
 
 connection.connect(function(err) {
