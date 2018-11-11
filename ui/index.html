@@ -1,0 +1,58 @@
+<html>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>First Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/ui/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body class="main"> 
+    <div class="head">
+        <div class="container-fluid">     
+                <div class="row">
+                  <div id="webname">
+                    <strong>WebSite Name</strong>
+                  </div>
+                </div>
+                <div class="row" id="navbar">
+                    <div class="col-sm-4"><a href="http://localhost:8080/">HOME</a></div>
+                    <div class="col-sm-4"><li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Articles
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="http://localhost:8080/articles/article-one">Article 1</a></li>
+                              <li><a href="http://localhost:8080/articles/article-two">Article 2</a></li>
+                              <li><a href="http://localhost:8080/articles/article-three">Article 3</a></li>
+                            </ul>
+                        </div>
+                    <div class="col-sm-4"><a href="http://localhost:8080/counter">Counter</a></div>
+                </div>
+              </div>
+    </div>
+    <div>
+    <div class="container-fluid">
+            <p>After clicking this<button id="counter" class="btn btn-info">Click me!</button>the counter will increase <span id=count></span></p>
+         </div>
+         
+         <hr>
+        <div class="input">
+         <input type="text" id="name" placeholder="Name">
+         <input type="submit" id="submit_btn" value="submit">
+        </div>
+         <br>
+         <ul id="listNames"></ul>
+    </div class="article">
+    <div>
+    <input type="text" id="articleName" placeholder="Enter article name" value="article-one">
+    <button id="bttn">CLICK ME!</button>
+    </div>
+    <article id="article" ></article>
+    <div class="footer">
+    </div>
+    <script src="/ui/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

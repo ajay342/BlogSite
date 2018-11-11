@@ -1,0 +1,57 @@
+#webname{
+    font-size: 5vh;
+    color: darkred;
+    padding:1%;
+    padding-left: 6%;
+}
+img{
+    height:auto;
+    width:100px;
+}
+#weblogo{
+    text-align: end;
+    padding-right: 5%;
+}
+#navbar{
+    padding:2%;
+    font-size: 3vh;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.main{
+    background-color: seashell;
+}
+h1{
+    font-size: 12vh;
+}
+p{
+    text-align: center;
+    font-size: 3vh;
+}
+div{
+    text-align: center;
+}
+#counter{
+    margin: 10px;
+    padding: 6px;
+}
+.input{
+   align-content: center 
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.article{
+    align-content: center
+}
+#article{
+    padding-left: 2%;
+    margin:1%;
+    font-size: 2vh;
+    color: #001775;
+    }
